@@ -14,5 +14,10 @@
   "author": "qianye003",
   "license": "ISC",
   "type": "module",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qianye003/cubic-parametric-spline.git"
+  }
+  
 }
