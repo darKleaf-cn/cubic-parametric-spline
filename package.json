@@ -1,6 +1,6 @@
 {
   "name": "cubic-parametric-spline",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "三次参数样条",
   "main": "index.js",
   "scripts": {
