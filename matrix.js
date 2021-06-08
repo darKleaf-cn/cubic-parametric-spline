@@ -1,3 +1,5 @@
+/* Inspired by https://github.com/armancodv/tdma */ 
+
 function tdma(a, b, c, d) {
   let n = b.length - 1;
   let m = d[0].length;
