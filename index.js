@@ -1,8 +1,4 @@
-import { inv, multiply } from "./matrix.js";
-
-function solve(a, b) {
-  return multiply(inv(a), b);
-}
+import solver from "./matrix.js";
 
 class SPLINE {
   constructor(p, p_) {
@@ -66,7 +62,7 @@ class SPLINE {
     return this.C_y
   }
   caculate_vector_cut() {
-    const temp = solve(this.m, this.C_y);
+    const temp = solver(this.m, this.C_y);
     this.p_ = Array.from(temp);
     return temp;
   }
